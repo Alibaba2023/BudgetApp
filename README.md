@@ -1,98 +1,57 @@
 <a name="readme-top"></a>
 
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [YouPayment App ](#youpayment-app-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+    - [Live demo ](#live-de-)
+  - [🔭 Walk through video ](#-walk-through-video-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run linters](#run-linters)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+---
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# YouPayment App <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**"YouPayment App"** YouPayment is a mobile budget app built with Rails 7 and PostgreSQL. It allows the user to record all their expense transactions and classify them by categories.
+---
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>Backend</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://guides.rubyonrails.org/">Ruby on Rails (v7.0.8)</a></li>
+    <li><a href="https://www.postgresql.org/docs/">PostgreSQL</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Frontend</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML5</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.rubyguides.com/2018/11/ruby-erb-haml-slim/">ERB template</a></li>
   </ul>
 </details>
 
@@ -100,21 +59,35 @@ For more information on the importance of a professional README for your reposit
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+<ul>
+  <li>Ruby on Rails framework</li>
+  <li>
+    Use Linters to check code quality
+    <ul>
+      <li>Rubocop</li>
+      <li>Stylelint</li>
+    </ul>
+  </li>
+  <li>MVC architectural/design pattern</li>
+  <li>Data persistent in PostgreSQL</li>
+  <li>Test the application with rspec and capybara gems</li>
+  <li>Authentication system build with devise gem</li>
+  <li>Follow Microverse's list of best practices</li>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://budget-app-z2pa.onrender.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Walk through video <a name="walk-through-video"></a>
+
+<a href="https://drive.google.com/file/d/11W_0J-RmDL3RqkRky3wwz2DTmvTF-YCQ/view?usp=sharing">Video presentation of the Project</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,117 +95,138 @@ For more information on the importance of a professional README for your reposit
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
+<ul>
+    <li><p>**A code editor** like Visual Studio Code (Recommended) or any other of your preference. Opening the project and adding or modifying the source code is necessary. [You can Download Visual Studio Code here](https://code.visualstudio.com/)</p></li>
+</ul>
 
-```sh
- gem install rails
-```
- -->
+<ul>
+    <li><p>**Git:** to manage the project versions of source code. [You can Download Git here](https://git-scm.com/)</p></li>
+</ul>
+
+<ul>
+    <li><p>**Nodejs and NPM:** to install and manage the node packages. [Nodejs and NPM installation guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+</p></li>
+</ul>
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder by using this 👇️ command :
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
 ```
---->
+git clone https://github.com/Alibaba2023/budget-app.git
+```
 
 ### Install
 
-Install this project with:
+Go to the project directory:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
 ```
---->
+ cd budget-app
+```
+
+Before running the program, verify that you have Ruby on Rails installed on your OS by running the following command:
+
+```
+ rails --version
+```
+
+It should show you the version of ruby on rails ​​installed. If this does not happen and only an error message is displayed, you should verify your installation or install Ruby on Rails from scratch.
+
+[Download and Install Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
+
+Once you have verified that you have Ruby on Rails installed, run the following command to install the necessary gems:
+
+```
+ bundle install
+```
+
+Then run the following command to install the necessary Node packages:
+```
+ npm install
+```
+
+After installing the gems and packages, run the following command to create the database:
+
+```
+ rails db:create
+```
+
+Then run the following command to migrate the database:
+
+```
+ rails db:migrate
+```
 
 ### Usage
 
-To run the project, execute the following command:
+Run the following command inside the project folder to start the application:
 
-<!--
-Example command:
-
-```sh
-  rails server
 ```
---->
+ rails s
+```
+
+This will start the application on your local server. You can now open your browser and go to http://localhost:3000/ to see the application running.
+
+### Run linters
+
+To verify that the ruby and CSS code is written without errors and meets good practice standards, run the following command inside the project folder:
+
+- **ruby linter:**
+```
+ rubocop
+```
+
+- **CSS linter:**
+```
+ stylelint "**/*.{css,scss}"
+```
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
+To execute the tests, run the following command inside the project folder:
 
 ```
- -->
+  bundle exec rspec
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Ali Baba Hussaini**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Alibaba2023](https://github.com/Alibaba2023/)
+- LinkedIn [Alibaba Hussaini](https://www.linkedin.com/in/ali-baba-hussaini-630607267/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+Upcoming improvements:
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [x] Add Forms to create a new category and payment
+- [x] Add the functionality to list categories and payments
+- [x] Add the integration tests using capybara gem
+- [x] Create the CSS styles for the app
+- [x] Deploy the application
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- CONTRIBUTING -->
 
@@ -240,52 +234,45 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Alibaba2023/budget-app/issues).
+
+To do Contributions, please fork this repository, create a new branch and then create a Pull Request from your branch. You can find detailed description of this process in: [A Step by Step Guide to Making Your First GitHub Contribution by Brandon Morelli](https://codeburst.io/a-step-by-step-guide-to-making-your-first-github-contribution-5302260a2940)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project and know someone who might find it helpful, please share it.
+Or give it a **star** ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+The UI design of this web app is not mine. This design was created and belongs to Gregoire Vella. (Here)[https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=] You can find more information about the original design of this mobile app and you can also see Gregoire Vella's profile (here)[https://www.behance.net/gregoirevella] to know more details about his wonderful work.
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+I would also like to thank my Microverse teammates for their support. They have supported me a lot in carrying out this project, giving me suggestions, and good advice and solving my code doubts.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+The UI design of the webpage is not mine. It is under (Creative Commons License)[https://creativecommons.org/licenses/by-nc/4.0/] licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
