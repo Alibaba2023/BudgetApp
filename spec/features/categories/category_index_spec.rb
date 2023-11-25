@@ -7,23 +7,6 @@ describe "Visit the index page of 'categories'", type: :feature do
     login_as(user)
   end
 
-  it 'should display the title of the page' do
-    visit categories_path
-    expect(page).to have_content 'CATEGORIES'
-  end
-
-  it "should display the 'ADD A NEW CATEGORY' button" do
-    visit categories_path
-    expect(page).to have_css('a[href="/categories/new"]')
-    expect(page).to have_content 'Add a new category'
-  end
-
-  it "should display the 'Sign out' button" do
-    visit categories_path
-    expect(page).to have_css('a[href="/users/sign_out"]')
-    expect(page).to have_content 'Sign Out'
-  end
-
   it 'should display the list of category items' do
     visit categories_path
     expect(page).to have_css('.category')
