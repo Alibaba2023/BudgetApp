@@ -204,8 +204,10 @@ To execute the tests, run the following command inside the project folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ali Baba Hussaini **
+👤 **Ali Baba Hussaini**
 
+- GitHub: [@Alibaba2023](https://github.com/Alibaba2023/)
+- LinkedIn [Alibaba Hussaini](https://www.linkedin.com/in/ali-baba-hussaini-630607267/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -268,7 +270,7 @@ I would also like to thank my Microverse teammates for their support. They have 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 The UI design of the webpage is not mine. It is under (Creative Commons License)[https://creativecommons.org/licenses/by-nc/4.0/] licensed.
 
