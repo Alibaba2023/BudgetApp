@@ -9,7 +9,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-    - [🚀 Live Demo ](#-live-demo-)
   - [🔭 Walk through video ](#-walk-through-video-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -77,18 +76,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
----
-
-### 🚀 Live Demo <a name="live-demo"></a>
-
-<!-- - [ ] video [link](https://drive.google.com/file/d/11W_0J-RmDL3RqkRky3wwz2DTmvTF-YCQ/view?usp=sharing) -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## 🔭 Walk through video <a name="walk-through-video"></a>
 
-<a href="">Video presentation of the Project</a>
+<a href="https://drive.google.com/file/d/11W_0J-RmDL3RqkRky3wwz2DTmvTF-YCQ/view?usp=sharing">Video presentation of the Project</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
