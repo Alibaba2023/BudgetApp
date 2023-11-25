@@ -81,7 +81,7 @@
 
 ### 🚀 Live Demo <a name="live-demo"></a>
 
-Coming soon
+- [ ] video [link](https://drive.google.com/file/d/11W_0J-RmDL3RqkRky3wwz2DTmvTF-YCQ/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
